@@ -82,7 +82,7 @@ class ImagePickerSaver {
         'description': description
       },
     );
-    debugPrint("saved filePath:" + filePath);
+    //debugPrint("saved filePath:" + filePath);
     //process ios return filePath
     if(filePath.startsWith("file://")){
       filePath=filePath.replaceAll("file://", "");
